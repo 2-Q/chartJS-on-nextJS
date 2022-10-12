@@ -21,30 +21,6 @@ ChartJS.register(
 
 const options = {
   responsive: true,
-  plugins: {
-    legend: {
-      position: 'top',
-    },
-    title: {
-      display: true,
-      text: 'title',
-      align: "start",
-    },
-    legend: {
-      position: "top",
-      align: "start",
-      labels: {
-        usePointStyle: true,
-      },
-      rtl: true
-    },
-    tooltip: {
-      backgroundColor: "#575757",
-      padding: 12,
-      usePointStyle: true,
-      displayColors: false,
-    }
-  },
   scales: {
     y: {
       display: true,
@@ -63,10 +39,6 @@ const options = {
       }
     },
   },
-  hoverOffset: 0,
-  offset: 20,
-  cubicInterpolationMode: 'monotone',
-  pointBorderWidth: 2
 };
 
 export default function Home() {
