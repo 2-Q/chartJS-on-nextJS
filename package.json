@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-chartjs",
+  "name": "chart",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,13 +10,11 @@
   },
   "dependencies": {
     "chart.js": "^3.9.1",
-    "next": "12.0.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "next": "13.0.2",
     "react": "18.2.0",
     "react-chartjs-2": "^4.3.1",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1"
   }
 }
